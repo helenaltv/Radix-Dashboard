@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+.menu {
+  list-style: none;
+  display: flex;
+}
+.menu li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.search-box {
+  margin-right: 20px;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
